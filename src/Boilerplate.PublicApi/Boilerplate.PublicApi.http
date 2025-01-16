@@ -1,0 +1,6 @@
+@Boilerplate.PublicApi_HostAddress = https://localhost:7285
+
+GET {{Boilerplate.PublicApi_HostAddress}}/todo/
+Accept: application/json
+
+###
