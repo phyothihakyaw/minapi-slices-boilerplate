@@ -4,3 +4,7 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 .idea
+/.idea
+.idea/.idea.minapi-slices-boilerplate/.idea/aws.xml
+/.idea/.idea.minapi-slices-boilerplate/.idea
+/.idea/.idea.minapi-slices-boilerplate

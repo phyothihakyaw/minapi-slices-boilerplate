@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=30b25743_002Df6e7_002D4768_002D8395_002D4bc39b039a0d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ShouldReturnOkWithGuid #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::E9D7C400-1F97-40F4-989F-4B2E1DFE1636::net9.0::CreateTodoTests.Handle_ValidRequest_ShouldReturnOkWithGuid&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=64eb258c_002Dd5b0_002D41aa_002D8311_002Dc5a61b461209/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Create_NullTitle_BadRequest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::E9D7C400-1F97-40F4-989F-4B2E1DFE1636::net9.0::Boilerplate.PublicApi.Tests.TodoCreation.Create_NullTitle_BadRequest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=694fb766_002Db445_002D4235_002D9809_002Dffd288820e2f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Handle_ValidRequest_ShouldReturnOkWithGuid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::E9D7C400-1F97-40F4-989F-4B2E1DFE1636::net9.0::CreateTodoTests.Handle_ValidRequest_ShouldReturnOkWithGuid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E9D7C400-1F97-40F4-989F-4B2E1DFE1636::net9.0::CreateTodoTests.Handle_InvalidRequest_ShouldReturnBadRequest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

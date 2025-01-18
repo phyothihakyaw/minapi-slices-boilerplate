@@ -23,7 +23,7 @@ public static class CreateTodo
                 .WithTags("todo");
         }
 
-        private static Results<Ok<Guid>, BadRequest> Handle(Request request, AppDbContext context)
+        public static Results<Ok<Guid>, BadRequest> Handle(Request request, AppDbContext context)
         {
             var validator = new Validator();
             var result = validator.Validate(request);
