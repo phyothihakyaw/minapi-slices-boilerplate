@@ -26,3 +26,5 @@ app.MapGet("/", () => "Server is running at port 7285");
 app.UseHttpsRedirection();
 app.MapEndpoints();
 app.Run();
+
+public partial class Program { }

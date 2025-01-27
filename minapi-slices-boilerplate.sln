@@ -4,6 +4,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3EF50DB1-6CA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.PublicApi", "src\Boilerplate.PublicApi\Boilerplate.PublicApi.csproj", "{E7EC909F-FBDA-4BBD-A71E-903F532E66F9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{07143F46-BF50-441D-A66A-37A5AEA0DD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minapi-slices-boilerplate.FunctionalTests", "test\minapi-slices-boilerplate.FunctionalTests\minapi-slices-boilerplate.FunctionalTests.csproj", "{489929D7-4EE8-4DB3-B908-199EB30863EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E7EC909F-FBDA-4BBD-A71E-903F532E66F9} = {3EF50DB1-6CA2-45EE-8C81-EE8D7FB2893F}
+		{489929D7-4EE8-4DB3-B908-199EB30863EA} = {07143F46-BF50-441D-A66A-37A5AEA0DD3B}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E7EC909F-FBDA-4BBD-A71E-903F532E66F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7EC909F-FBDA-4BBD-A71E-903F532E66F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7EC909F-FBDA-4BBD-A71E-903F532E66F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7EC909F-FBDA-4BBD-A71E-903F532E66F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489929D7-4EE8-4DB3-B908-199EB30863EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489929D7-4EE8-4DB3-B908-199EB30863EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489929D7-4EE8-4DB3-B908-199EB30863EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489929D7-4EE8-4DB3-B908-199EB30863EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

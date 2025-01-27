@@ -27,5 +27,9 @@
             <Link>.dockerignore</Link>
         </Content>
     </ItemGroup>
+    
+    <ItemGroup>
+        <InternalVisibleTo Include="Boilerplate.FunctionalTests" />
+    </ItemGroup>
 
 </Project>
