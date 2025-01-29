@@ -1,0 +1,26 @@
+﻿services:
+  boilerplate.publicapi:
+    image: boilerplate.publicapi:dev
+    container_name: boilerplate.publicapi
+    build:
+      context: .
+      dockerfile: src/Boilerplate.PublicApi/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+#      - ASPNETCORE_HTTP_PORTS=https://+:8081;http://+:8080
+      - ConnectionStrings__DefaultConnection=Server=boilerplate.database;Port=5432;Database=boilerplate_db;Username=postgres;Password=postgres
+      
+  boilerplate.database:
+    image: postgres:latest
+    container_name: boilerplate.database
+    environment:
+      - POSTGRES_DB=boilerplate_db
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - X:/containers/mnt/postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"

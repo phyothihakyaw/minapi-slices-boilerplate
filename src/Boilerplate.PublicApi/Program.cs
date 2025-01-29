@@ -20,9 +20,11 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ApplyMigrations();
 }
 
-app.MapGet("/", () => "Server is running at port 7285");
+app.MapGet("/", () => "Server is running at port 8081");
+app.UseHsts();
 app.UseHttpsRedirection();
 app.MapEndpoints();
 app.Run();
