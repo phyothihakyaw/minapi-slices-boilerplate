@@ -10,17 +10,12 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpoints();
-
-builder.Services.AddSwaggerGen(opt => { });
-
 builder.Services.AddDbContext<AppDbContext>(opt => { opt.UseNpgsql(connectionString); });
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
     app.MapScalarApiReference();
     app.ApplyMigrations();
 }
