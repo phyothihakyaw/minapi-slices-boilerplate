@@ -1,6 +1,7 @@
 using Boilerplate.PublicApi.Data;
 using Boilerplate.PublicApi.Extensions;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
@@ -20,6 +21,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.MapScalarApiReference();
     app.ApplyMigrations();
 }
 
@@ -28,5 +30,3 @@ app.UseHsts();
 app.UseHttpsRedirection();
 app.MapEndpoints();
 app.Run();
-
-public partial class Program { }
